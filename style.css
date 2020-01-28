@@ -1,0 +1,14 @@
+.fld {
+	width: 300px;
+}
+input {
+	position: relative;
+	display: block;
+	float: right;
+}
+
+.fld p :hover {
+	display: inline-block;
+	color: blue;
+	font-size: 15px;
+}
