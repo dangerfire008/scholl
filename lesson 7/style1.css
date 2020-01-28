@@ -1,0 +1,19 @@
+img {
+	border-radius: 500px;
+	margin-top: 10%;
+	width: 30%;
+}
+
+#first {
+	width: 1200px;
+	height: 700px;
+	background: #000;
+	margin: auto;
+}
+
+#second {
+	width: 1200px;
+	height: 700px;
+	background: #98d361;
+	margin: auto;
+}
