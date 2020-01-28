@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	margin: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-x: hidden; 
+}
+
+#FirstScreen {
+	max-width: 1200px;
+	height: 675px;
+	background: #EEEEEE;
+	margin: auto;
+}
+
+.header img {
+	margin-left: 30px;
+	margin-top: 30px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.nav li {
+	font-family: 'Oswald', sans-serif;;
+	font-weight: normal;
+	position: relative;
+	list-style-type: none;
+	padding-right: 5px;
+	margin-top: 54px;
+}
+
+.services {
+	margin-left: 5%;
+	float: right;
+}
+
+.prices {
+	float: right;
+	margin-left: 5%;
+}
+
+.portfolio {
+	margin-left: 5%;
+	float: right;
+}
+
+.work {
+	margin-left: 5%;
+	float: right;
+}
+
+.main {
+	display: inline-block;
+	margin-right: -200px;
+}
