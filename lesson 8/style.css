@@ -1,0 +1,456 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 15px;
+}
+
+#first .row {
+	display: flex;
+	justify-content: center;
+}
+
+#container {
+	max-width: 1200px;
+	max-height: 4500px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 0 15px;
+	width: 100%;
+	height: 45px;
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background: #f98561;
+	border-radius: 50%;
+	float: left;
+	margin-top: 27px;
+	margin-left: 30px;
+}
+
+.square {
+	width: 20px;
+	height: 20px;
+	background: #23afc8;
+	position: relative;
+	margin-top: 27px;
+	margin-left: 5px;
+	float: left;
+	margin-right: 8px;
+}
+
+.row h3 {
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+#header li {
+	list-style-type: none;
+}
+
+li.headerText {
+	float: left;
+	margin-top: 0;
+	padding-top: 5%;
+	padding-bottom: 6%;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 35px;
+	cursor: pointer;
+	background: #2190c1;
+	color: #c5f4ff;
+}
+
+li.headerText1 {
+	float: left;
+	margin-top: 25px;
+	margin-right: 45px;
+	cursor: pointer;
+}
+
+li.headerText2 {
+	float: left;
+	margin-top: 25px;
+	margin-right: 45px;
+	cursor: pointer;
+}
+
+li.headerText3 {
+	float: left;
+	margin-top: 25px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.btn button {
+	margin-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: #f98561;
+	border-radius: 6px;
+	border: none;
+	color: #fff;
+}
+
+p.headerText4 {
+	float: left;
+	margin-left: 155px;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+.headerIMG {
+	margin-top: 20px;
+	float: right;
+	margin-right: 30px;	
+}
+
+#first {
+	background-image: url(background.png);
+	width: 100%;
+	height: 490px;
+	position: relative;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+p.firstText {
+	color: #fff;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+p.firstText1 {
+	position: relative;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	padding-left: 135px;
+	padding-right: 135px;
+}
+
+.btn2 button {
+	font-size: 20px;
+	padding: 5px 40px;
+	margin-top: 40px;
+	background: #f98561;
+	color: #fff;
+	border: none;
+	border-radius: 4px 4px;
+	margin-left: 37%;
+}
+
+p.banerText {
+	text-align: center;
+	color: #fff;
+	width: 150px;
+	height: 32px;
+	background: #2190c1;
+	border-radius: 3px;
+	padding-top: 3px;
+	margin-left: 43%;
+	margin-top: -15px;
+}
+
+#ourServices {
+	width: 100%;
+	max-height:500px;
+	background: #f4f4f4; 
+	margin-top: -33px;
+}
+
+#ourServices img {
+	margin-top: 50px;
+	width: 40%;
+	margin-left: 28%;
+}
+
+
+#ourServices h3 {
+	text-align: center;
+}
+
+#ourServices p {
+	text-align: center;
+	padding: 0 45px;
+	font-size: 13px;
+	margin-bottom: 35px;
+}
+
+#center {
+	background: #2e3e4f;
+	height: 640px;
+	width: 100%; 
+}
+
+#center h1 {
+	margin-top: 50px;
+	font-size: 28px;
+	color: #f98561;
+	margin-left: 30px;
+}
+
+p.centerText {
+	margin-top: 50px;
+	margin-right: 30px;
+	padding-top: 10px;
+	color: #fff;
+	border-radius: 5px;
+	float: right;
+	width: 120px;
+	height: 45px;
+	cursor: pointer;
+	background: #2190c1;
+	text-align: center;
+}
+
+
+#center img {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.centerIMG {
+	padding-left: 30px;
+}
+
+.centerIMG1 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.centerIMG2 {
+	padding-right: 30px;
+}
+
+#center h2 {
+	text-align: left;
+	color: #f98561;
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+p.centerText1 {
+	color: #fff;
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+h2.centerH2 {
+	padding-left: 30px;
+}
+
+h2.centerH21 {
+	padding-left: 15px;
+}
+
+p.centerText2 {
+	color: #fff;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+p.centerText3 {
+	color: #fff;
+	font-size: 14px;
+	padding-right: 30px;
+}
+
+#bottom {
+	background: #f4f4f4;
+	width: 100%;
+	max-height: 730px; 
+}
+
+#bottom h1 {
+	text-align: center;
+	color: #2190c1;
+	margin-top: 20px;
+}
+
+h1.bottomH11 {
+	font-size: 40px;
+}
+
+#bottom .col-12 p {
+	padding: 5px 140px;
+	text-align: center;
+}
+
+#bottom h3{
+	color: #2190c1;
+}
+
+#bottom p {
+	font-size: 14px;
+}
+
+.bottomH3 {
+	padding-left: 30px;
+}
+
+p.bottomP {
+	padding-left: 30px;
+	padding-right: 15px;
+	margin-right: -15px;
+	margin-bottom: 0px;
+}
+
+.btn4 button {
+	float: right;
+	margin-top: 20px;
+	background: #2190c1;
+	padding: 2px 10px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+}
+
+p.bottomP1 {
+	padding: 0 15px;
+	margin: 0 -15px;
+}
+
+.btn5 button {
+	float: right;
+	margin-top: 20px;
+	background: #2190c1;
+	padding: 2px 10px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+#bottom.col-3 {
+	margin: 0;
+	padding: 0;
+}
+
+p.bottomP2 {
+	padding-right: 30px;
+	margin: 0;
+}
+
+#bottom hr {
+	color: #c1c1c1;
+	width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: -10px;
+}
+
+h1.bottomH1 {
+	font-size: 30px;
+}
+
+h2.bottomH2 {
+	font-size: 24px;
+	text-align: center;
+	padding: 0 180px;
+	margin-top: 20px;
+}
+
+p.bottomP3 {
+	text-align: center;
+	color: #f88560;
+	margin-top: 40px;
+}
+
+#bottom img {
+	margin-top: 10px;
+	width: 28%;
+	margin-bottom: 30px;
+}
+
+.bottomIMG {
+	padding-left: 30px;
+}
+
+#contact {
+	background: #2e3e4f;
+	padding-left: 30px;
+	width: 100%;
+	max-height: 675px;
+
+}
+
+#contact h1 {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	text-align: left;
+	font-size: 28px;
+	color: #f88560;
+}
+
+#contact p {
+	color: #fff;
+	font-size: 14px;
+}
+
+hr.contactHR {
+	color: #fff;
+}
+
+#contact img {
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+}
+
+img.contactIMG {
+	padding-top: 12px;
+}
+
+#contact input {
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+#contact button {
+	border-radius: 3px;
+	border: none;
+	background: #2190c1;
+	color: #fff;
+	padding: 2px 15px;
+	float: right;
+}
+
+#contact .zero {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	float: left;
+}
+
+#contact .row .col-4 {
+	padding-bottom: 0;
+	max-height: 50px;
+}
+
+#contact .row .col-8 {
+	padding-bottom: 0;
+	padding-left: 0;
+	max-height: 50px;
+    margin-bottom: 12px;
+}
+
+#contact .col-3 .col-9 {
+	padding-bottom: 0;
+	padding-left: 0;
+	max-height: 50px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
