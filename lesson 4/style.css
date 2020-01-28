@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #d8cfa3;
+	font: 300 normal 18px/1.6 'Roboto Slab', serif;
+	overflow-x: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container {
+	background: #7b796c;
+	max-width: 450px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+.box {
+	font-size: 26px;
+	padding: 10px;
+}
+
+.box.first {
+	background: #238c1b;
+	color: #fff;
+	max-width: 400px;
+	height: 160px;
+	margin: 20px;
+}
+
+.box.second {
+	background: #dec939;
+	max-width: 400px;
+	height: 160px;
+}
