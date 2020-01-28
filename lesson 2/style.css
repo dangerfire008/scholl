@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #d8cfa3;
+	font: 300 normal 18px/1.6 'Roboto Slab', serif;
+	overflow-x: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#container {
+	padding-top: 10px;
+	background: #f5f4e2;
+	max-width: 1050px;
+	max-height: 1500px;
+	margin: auto;
+}
+
+.first {
+	padding-left: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.second {
+	padding-left: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.text {
+	color: red;
+	font-style: italic;
+	position: relative;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+ol li {
+	margin-left: 42%;
+}
+
+.img {
+	width: 50%;
+	margin-left: 25%;
+}
