@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #d8cfa3;
+	font: 300 normal 18px/1.6 'Roboto Slab', serif;
+	overflow-x: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h1 {
+	color: #ce2d2d;
+	font-size: 30px;
+}
+
+.main-menu-item li {
+	color: #2d90ce;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.categ-menu-item li {
+	color: #0c659d;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+h2 {
+	color: #c36a4f;
+	font-size: 26px;
+}
+
+.main-menu-item li.active {
+	color: #000000;
+	font-weight: bolder;
+}
+
+.categ-menu-item li.active {
+	color: #000000;
+	font-weight: bolder;
+}
